@@ -1,0 +1,39 @@
+//
+//  MNiang.pch
+//  MNiang
+//
+//  Created by Kowloon on 16/6/7.
+//  Copyright © 2016年 PHH. All rights reserved.
+//
+
+#ifndef MNiang_pch
+#define MNiang_pch
+
+#ifdef DEBUG
+#define PHLog(...) NSLog(__VA_ARGS__)
+#else
+#define PHLog(...)
+#endif
+
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+#define kRedColor kRGBColor(225,108,120)
+#define kRGBColor(r,g,b)  [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1.0]
+#define kRGBAColor(r,g,b,a)  [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+#define kiOS(version) ([[[UIDevice currentDevice] systemVersion] floatValue] >= version)
+
+#define kiOS7 kiOS(7.0f)
+#define kiOS8 kiOS(8.0f)
+#define kiOS9 kiOS(9.0f)
+
+
+#if 0
+#define kMobClick
+#endif
+
+#endif /* MNiang_pch */
+
+#ifdef __OBJC__
+
+#import "MNObject.h"
+
+#endif
