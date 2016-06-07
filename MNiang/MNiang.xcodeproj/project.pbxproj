@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03E49BF81D07129F0034B1DB /* HWTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E49BF71D07129F0034B1DB /* HWTabBar.m */; };
 		354ABC3F22A82ECC3C79BDBB /* libPods-MNiang.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD5D386AB18AE330676CF39 /* libPods-MNiang.a */; };
 		A944C5761D06D07400AF06B7 /* MNDiscoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = A944C5751D06D07400AF06B7 /* MNDiscoverController.m */; };
 		A944C5791D06D08700AF06B7 /* MNHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A944C5781D06D08700AF06B7 /* MNHomeViewController.m */; };
@@ -59,6 +60,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03E49BF61D07129F0034B1DB /* HWTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWTabBar.h; sourceTree = "<group>"; };
+		03E49BF71D07129F0034B1DB /* HWTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWTabBar.m; sourceTree = "<group>"; };
 		8CD5D386AB18AE330676CF39 /* libPods-MNiang.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MNiang.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A944C5741D06D07400AF06B7 /* MNDiscoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNDiscoverController.h; sourceTree = "<group>"; };
 		A944C5751D06D07400AF06B7 /* MNDiscoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNDiscoverController.m; sourceTree = "<group>"; };
@@ -446,6 +449,8 @@
 		A99D3A511D069C26004EA884 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				03E49BF61D07129F0034B1DB /* HWTabBar.h */,
+				03E49BF71D07129F0034B1DB /* HWTabBar.m */,
 				A99D3A671D069CA0004EA884 /* PHTabBar.h */,
 				A99D3A681D069CA0004EA884 /* PHTabBar.m */,
 				A99D3A691D069CA0004EA884 /* PHTabBarButton.h */,
@@ -694,6 +699,7 @@
 				A99D3AA21D069F07004EA884 /* UIView+PHLayout.m in Sources */,
 				A99D3AA91D069F99004EA884 /* PHKeyValueObserver.m in Sources */,
 				A99D3AA31D069F07004EA884 /* UIViewController+PHCategory.m in Sources */,
+				03E49BF81D07129F0034B1DB /* HWTabBar.m in Sources */,
 				A944C57F1D06D0E600AF06B7 /* MNMeViewController.m in Sources */,
 				A99D3A981D069F07004EA884 /* NSString+PHCategory.m in Sources */,
 				A944C5821D06D0F300AF06B7 /* MNMessageViewController.m in Sources */,

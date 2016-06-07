@@ -18,7 +18,7 @@
 
 - (void)dealloc {
     [[NSNotificationCenter defaultCenter] removeObserver:self];
-    PHLog(@"%@ --> dealloc", NSStringFromClass([self class]));
+    MNLog(@"%@ --> dealloc", NSStringFromClass([self class]));
 }
 
 - (void)viewDidLoad {
@@ -57,14 +57,14 @@
 }
 
 - (void)viewControllerDidEnterBackground{
-    PHLog(@"%@ -> %@", NSStringFromClass([self class]), NSStringFromSelector(_cmd));
+    MNLog(@"%@ -> %@", NSStringFromClass([self class]), NSStringFromSelector(_cmd));
 }
 
 - (void)viewControllerDidBecomeActive{
-    PHLog(@"%@ -> %@", NSStringFromClass([self class]), NSStringFromSelector(_cmd));
+    MNLog(@"%@ -> %@", NSStringFromClass([self class]), NSStringFromSelector(_cmd));
 }
 - (void)viewControllerWillResignActive{
-    PHLog(@"%@ -> %@", NSStringFromClass([self class]), NSStringFromSelector(_cmd));
+    MNLog(@"%@ -> %@", NSStringFromClass([self class]), NSStringFromSelector(_cmd));
 }
 @end
 

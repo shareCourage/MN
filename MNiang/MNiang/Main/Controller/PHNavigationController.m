@@ -15,7 +15,7 @@
 @implementation PHNavigationController
 - (void)dealloc
 {
-    PHLog(@"%@->dealloc",NSStringFromClass([self class]));
+    MNLog(@"%@->dealloc",NSStringFromClass([self class]));
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -42,7 +42,7 @@
     // 设置标题文字颜色
     NSMutableDictionary *attrs = [NSMutableDictionary dictionary];
     if (kiOS7) {
-        attrs[NSForegroundColorAttributeName] = [UIColor whiteColor];
+        attrs[NSForegroundColorAttributeName] = [UIColor blackColor];
         attrs[NSFontAttributeName] = [UIFont systemFontOfSize:18];
     }
     else{
@@ -69,7 +69,9 @@
  */
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated
 {
-    viewController.hidesBottomBarWhenPushed = YES;
+    if (self.viewControllers.count > 0) { // 这时push进来的控制器viewController，不是第一个子控制器（不是根控制器）
+        viewController.hidesBottomBarWhenPushed = YES;
+    }
     [super pushViewController:viewController animated:animated];
 }
 
