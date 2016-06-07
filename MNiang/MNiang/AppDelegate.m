@@ -21,11 +21,11 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     PHTabBarController *tabBarVC = [[PHTabBarController alloc] init];
-    PHLog(@"%s",__func__);
+    MNLog(@"%s",__func__);
     
-    PHLog(@"==============");
-    PHLog(@"are you kiding me?");
-    PHLog(@"==============");
+    MNLog(@"==============");
+    MNLog(@"are you kiding me?");
+    MNLog(@"==============");
     self.window.rootViewController = tabBarVC;
     
     [self.window makeKeyAndVisible];
@@ -36,7 +36,7 @@
 
 - (void)testMethod
 {
-    PHLog(@"testMethod");
+    MNLog(@"testMethod");
 }
 
 
