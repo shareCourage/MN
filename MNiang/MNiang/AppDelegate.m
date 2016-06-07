@@ -32,7 +32,9 @@
 
 - (void)testMethod
 {
-    
+    PHLog(@"testMethod");
 }
+
+
 
 @end
