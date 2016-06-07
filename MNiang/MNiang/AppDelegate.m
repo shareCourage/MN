@@ -21,7 +21,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     PHTabBarController *tabBarVC = [[PHTabBarController alloc] init];
-    
+    PHLog(@"%s",__func__);
     self.window.rootViewController = tabBarVC;
     
     [self.window makeKeyAndVisible];
