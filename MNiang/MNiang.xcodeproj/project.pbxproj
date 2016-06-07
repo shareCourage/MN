@@ -15,6 +15,7 @@
 		A944C5821D06D0F300AF06B7 /* MNMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A944C5811D06D0F300AF06B7 /* MNMessageViewController.m */; };
 		A944C5881D06E40600AF06B7 /* UIControl+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A944C5851D06E40600AF06B7 /* UIControl+YYAdd.m */; };
 		A944C5891D06E40600AF06B7 /* UIGestureRecognizer+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A944C5871D06E40600AF06B7 /* UIGestureRecognizer+YYAdd.m */; };
+		A944C58C1D06E94400AF06B7 /* EBNetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A944C58B1D06E94400AF06B7 /* EBNetworkRequest.m */; };
 		A99D3A1F1D069A8B004EA884 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A99D3A1E1D069A8B004EA884 /* main.m */; };
 		A99D3A221D069A8B004EA884 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A99D3A211D069A8B004EA884 /* AppDelegate.m */; };
 		A99D3A2A1D069A8B004EA884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A99D3A291D069A8B004EA884 /* Assets.xcassets */; };
@@ -73,6 +74,8 @@
 		A944C5851D06E40600AF06B7 /* UIControl+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+YYAdd.m"; sourceTree = "<group>"; };
 		A944C5861D06E40600AF06B7 /* UIGestureRecognizer+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+YYAdd.h"; sourceTree = "<group>"; };
 		A944C5871D06E40600AF06B7 /* UIGestureRecognizer+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+YYAdd.m"; sourceTree = "<group>"; };
+		A944C58A1D06E94400AF06B7 /* EBNetworkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBNetworkRequest.h; sourceTree = "<group>"; };
+		A944C58B1D06E94400AF06B7 /* EBNetworkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBNetworkRequest.m; sourceTree = "<group>"; };
 		A99D3A1A1D069A89004EA884 /* MNiang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MNiang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A99D3A1E1D069A8B004EA884 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A99D3A201D069A8B004EA884 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -457,6 +460,8 @@
 				A99D3A6E1D069F07004EA884 /* Catagory */,
 				A99D3AA41D069F5C004EA884 /* MNObject.h */,
 				A99D3AA51D069F5C004EA884 /* MNObject.m */,
+				A944C58A1D06E94400AF06B7 /* EBNetworkRequest.h */,
+				A944C58B1D06E94400AF06B7 /* EBNetworkRequest.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -673,6 +678,7 @@
 				A99D3A6C1D069CA0004EA884 /* PHTabBarButton.m in Sources */,
 				A99D3A951D069F07004EA884 /* NSDate+PHCategory.m in Sources */,
 				A99D3A971D069F07004EA884 /* NSNumber+PHCategory.m in Sources */,
+				A944C58C1D06E94400AF06B7 /* EBNetworkRequest.m in Sources */,
 				A99D3A641D069C75004EA884 /* PHTabBarController.m in Sources */,
 				A99D3A661D069C75004EA884 /* PHViewController.m in Sources */,
 				A944C5791D06D08700AF06B7 /* MNHomeViewController.m in Sources */,
