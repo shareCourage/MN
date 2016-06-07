@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		354ABC3F22A82ECC3C79BDBB /* libPods-MNiang.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD5D386AB18AE330676CF39 /* libPods-MNiang.a */; };
+		A944C5761D06D07400AF06B7 /* MNDiscoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = A944C5751D06D07400AF06B7 /* MNDiscoverController.m */; };
+		A944C5791D06D08700AF06B7 /* MNHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A944C5781D06D08700AF06B7 /* MNHomeViewController.m */; };
+		A944C57C1D06D09400AF06B7 /* MNLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A944C57B1D06D09400AF06B7 /* MNLoginViewController.m */; };
+		A944C57F1D06D0E600AF06B7 /* MNMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A944C57E1D06D0E600AF06B7 /* MNMeViewController.m */; };
+		A944C5821D06D0F300AF06B7 /* MNMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A944C5811D06D0F300AF06B7 /* MNMessageViewController.m */; };
 		A99D3A1F1D069A8B004EA884 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A99D3A1E1D069A8B004EA884 /* main.m */; };
 		A99D3A221D069A8B004EA884 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A99D3A211D069A8B004EA884 /* AppDelegate.m */; };
 		A99D3A2A1D069A8B004EA884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A99D3A291D069A8B004EA884 /* Assets.xcassets */; };
@@ -54,6 +59,16 @@
 
 /* Begin PBXFileReference section */
 		8CD5D386AB18AE330676CF39 /* libPods-MNiang.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MNiang.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A944C5741D06D07400AF06B7 /* MNDiscoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNDiscoverController.h; sourceTree = "<group>"; };
+		A944C5751D06D07400AF06B7 /* MNDiscoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNDiscoverController.m; sourceTree = "<group>"; };
+		A944C5771D06D08700AF06B7 /* MNHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNHomeViewController.h; sourceTree = "<group>"; };
+		A944C5781D06D08700AF06B7 /* MNHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNHomeViewController.m; sourceTree = "<group>"; };
+		A944C57A1D06D09400AF06B7 /* MNLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNLoginViewController.h; sourceTree = "<group>"; };
+		A944C57B1D06D09400AF06B7 /* MNLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNLoginViewController.m; sourceTree = "<group>"; };
+		A944C57D1D06D0E600AF06B7 /* MNMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNMeViewController.h; sourceTree = "<group>"; };
+		A944C57E1D06D0E600AF06B7 /* MNMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNMeViewController.m; sourceTree = "<group>"; };
+		A944C5801D06D0F300AF06B7 /* MNMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNMessageViewController.h; sourceTree = "<group>"; };
+		A944C5811D06D0F300AF06B7 /* MNMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNMessageViewController.m; sourceTree = "<group>"; };
 		A99D3A1A1D069A89004EA884 /* MNiang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MNiang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A99D3A1E1D069A8B004EA884 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A99D3A201D069A8B004EA884 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -159,6 +174,171 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A944C5601D06D05200AF06B7 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				A944C5611D06D05200AF06B7 /* Controller */,
+				A944C5621D06D05200AF06B7 /* Model */,
+				A944C5631D06D05200AF06B7 /* View */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		A944C5611D06D05200AF06B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A944C5741D06D07400AF06B7 /* MNDiscoverController.h */,
+				A944C5751D06D07400AF06B7 /* MNDiscoverController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A944C5621D06D05200AF06B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A944C5631D06D05200AF06B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A944C5641D06D05200AF06B7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A944C5651D06D05200AF06B7 /* Controller */,
+				A944C5661D06D05200AF06B7 /* Model */,
+				A944C5671D06D05200AF06B7 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A944C5651D06D05200AF06B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A944C5771D06D08700AF06B7 /* MNHomeViewController.h */,
+				A944C5781D06D08700AF06B7 /* MNHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A944C5661D06D05200AF06B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A944C5671D06D05200AF06B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A944C5681D06D05200AF06B7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A944C5691D06D05200AF06B7 /* Controller */,
+				A944C56A1D06D05200AF06B7 /* Model */,
+				A944C56B1D06D05200AF06B7 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A944C5691D06D05200AF06B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A944C57A1D06D09400AF06B7 /* MNLoginViewController.h */,
+				A944C57B1D06D09400AF06B7 /* MNLoginViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A944C56A1D06D05200AF06B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A944C56B1D06D05200AF06B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A944C56C1D06D05200AF06B7 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				A944C56D1D06D05200AF06B7 /* Controller */,
+				A944C56E1D06D05200AF06B7 /* Model */,
+				A944C56F1D06D05200AF06B7 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		A944C56D1D06D05200AF06B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A944C57D1D06D0E600AF06B7 /* MNMeViewController.h */,
+				A944C57E1D06D0E600AF06B7 /* MNMeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A944C56E1D06D05200AF06B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A944C56F1D06D05200AF06B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A944C5701D06D05200AF06B7 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				A944C5711D06D05200AF06B7 /* Controller */,
+				A944C5721D06D05200AF06B7 /* Model */,
+				A944C5731D06D05200AF06B7 /* View */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		A944C5711D06D05200AF06B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A944C5801D06D0F300AF06B7 /* MNMessageViewController.h */,
+				A944C5811D06D0F300AF06B7 /* MNMessageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A944C5721D06D05200AF06B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A944C5731D06D05200AF06B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		A99D3A111D069A89004EA884 = {
 			isa = PBXGroup;
 			children = (
@@ -182,12 +362,12 @@
 		A99D3A1C1D069A8B004EA884 /* MNiang */ = {
 			isa = PBXGroup;
 			children = (
-				A99D3A421D069C26004EA884 /* Discover */,
-				A99D3A461D069C26004EA884 /* Home */,
-				A99D3A4A1D069C26004EA884 /* Login */,
+				A944C5601D06D05200AF06B7 /* Discover */,
+				A944C5641D06D05200AF06B7 /* Home */,
+				A944C5681D06D05200AF06B7 /* Login */,
+				A944C56C1D06D05200AF06B7 /* Me */,
+				A944C5701D06D05200AF06B7 /* Message */,
 				A99D3A4E1D069C26004EA884 /* Main */,
-				A99D3A521D069C26004EA884 /* Me */,
-				A99D3A561D069C26004EA884 /* Message */,
 				A99D3A5A1D069C26004EA884 /* Tools */,
 				A99D3A1D1D069A8B004EA884 /* Supporting Files */,
 			);
@@ -214,99 +394,6 @@
 				A99D3A391D069A8B004EA884 /* Info.plist */,
 			);
 			path = MNiangTests;
-			sourceTree = "<group>";
-		};
-		A99D3A421D069C26004EA884 /* Discover */ = {
-			isa = PBXGroup;
-			children = (
-				A99D3A431D069C26004EA884 /* Controller */,
-				A99D3A441D069C26004EA884 /* Model */,
-				A99D3A451D069C26004EA884 /* View */,
-			);
-			path = Discover;
-			sourceTree = "<group>";
-		};
-		A99D3A431D069C26004EA884 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		A99D3A441D069C26004EA884 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		A99D3A451D069C26004EA884 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		A99D3A461D069C26004EA884 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				A99D3A471D069C26004EA884 /* Controller */,
-				A99D3A481D069C26004EA884 /* Model */,
-				A99D3A491D069C26004EA884 /* View */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		A99D3A471D069C26004EA884 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		A99D3A481D069C26004EA884 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		A99D3A491D069C26004EA884 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		A99D3A4A1D069C26004EA884 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				A99D3A4B1D069C26004EA884 /* Controller */,
-				A99D3A4C1D069C26004EA884 /* Model */,
-				A99D3A4D1D069C26004EA884 /* View */,
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
-		A99D3A4B1D069C26004EA884 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		A99D3A4C1D069C26004EA884 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		A99D3A4D1D069C26004EA884 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		A99D3A4E1D069C26004EA884 /* Main */ = {
@@ -348,68 +435,6 @@
 				A99D3A681D069CA0004EA884 /* PHTabBar.m */,
 				A99D3A691D069CA0004EA884 /* PHTabBarButton.h */,
 				A99D3A6A1D069CA0004EA884 /* PHTabBarButton.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		A99D3A521D069C26004EA884 /* Me */ = {
-			isa = PBXGroup;
-			children = (
-				A99D3A531D069C26004EA884 /* Controller */,
-				A99D3A541D069C26004EA884 /* Model */,
-				A99D3A551D069C26004EA884 /* View */,
-			);
-			path = Me;
-			sourceTree = "<group>";
-		};
-		A99D3A531D069C26004EA884 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		A99D3A541D069C26004EA884 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		A99D3A551D069C26004EA884 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		A99D3A561D069C26004EA884 /* Message */ = {
-			isa = PBXGroup;
-			children = (
-				A99D3A571D069C26004EA884 /* Controller */,
-				A99D3A581D069C26004EA884 /* Model */,
-				A99D3A591D069C26004EA884 /* View */,
-			);
-			path = Message;
-			sourceTree = "<group>";
-		};
-		A99D3A571D069C26004EA884 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		A99D3A581D069C26004EA884 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		A99D3A591D069C26004EA884 /* View */ = {
-			isa = PBXGroup;
-			children = (
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -636,6 +661,7 @@
 				A99D3A9E1D069F07004EA884 /* UILabel+PHCategory.m in Sources */,
 				A99D3A9F1D069F07004EA884 /* UIProgressView+PHCategory.m in Sources */,
 				A99D3AA01D069F07004EA884 /* UISlider+PHCategory.m in Sources */,
+				A944C57C1D06D09400AF06B7 /* MNLoginViewController.m in Sources */,
 				A99D3A941D069F07004EA884 /* NSArray+MySeperateString.m in Sources */,
 				A99D3AA11D069F07004EA884 /* UITextField+PHCategory.m in Sources */,
 				A99D3A1F1D069A8B004EA884 /* main.m in Sources */,
@@ -649,17 +675,21 @@
 				A99D3A971D069F07004EA884 /* NSNumber+PHCategory.m in Sources */,
 				A99D3A641D069C75004EA884 /* PHTabBarController.m in Sources */,
 				A99D3A661D069C75004EA884 /* PHViewController.m in Sources */,
+				A944C5791D06D08700AF06B7 /* MNHomeViewController.m in Sources */,
 				A99D3AAF1D069FCD004EA884 /* UIControl+YYAdd.m in Sources */,
 				A99D3A9D1D069F07004EA884 /* UIImage+PHCategory.m in Sources */,
 				A99D3A9C1D069F07004EA884 /* UIColor+PHCategory.m in Sources */,
 				A99D3AA61D069F5C004EA884 /* MNObject.m in Sources */,
 				A99D3A6B1D069CA0004EA884 /* PHTabBar.m in Sources */,
+				A944C5761D06D07400AF06B7 /* MNDiscoverController.m in Sources */,
 				A99D3A991D069F07004EA884 /* UIAlertView+Blocks.m in Sources */,
 				A99D3A651D069C75004EA884 /* PHTableViewController.m in Sources */,
 				A99D3AA21D069F07004EA884 /* UIView+PHLayout.m in Sources */,
 				A99D3AA91D069F99004EA884 /* PHKeyValueObserver.m in Sources */,
 				A99D3AA31D069F07004EA884 /* UIViewController+PHCategory.m in Sources */,
+				A944C57F1D06D0E600AF06B7 /* MNMeViewController.m in Sources */,
 				A99D3A981D069F07004EA884 /* NSString+PHCategory.m in Sources */,
+				A944C5821D06D0F300AF06B7 /* MNMessageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
