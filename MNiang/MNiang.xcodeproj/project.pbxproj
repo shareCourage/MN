@@ -76,6 +76,7 @@
 		A944C5871D06E40600AF06B7 /* UIGestureRecognizer+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+YYAdd.m"; sourceTree = "<group>"; };
 		A944C58A1D06E94400AF06B7 /* EBNetworkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBNetworkRequest.h; sourceTree = "<group>"; };
 		A944C58B1D06E94400AF06B7 /* EBNetworkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBNetworkRequest.m; sourceTree = "<group>"; };
+		A944C58D1D06E9CD00AF06B7 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 		A99D3A1A1D069A89004EA884 /* MNiang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MNiang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A99D3A1E1D069A8B004EA884 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A99D3A201D069A8B004EA884 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -460,6 +461,7 @@
 				A99D3A6E1D069F07004EA884 /* Catagory */,
 				A99D3AA41D069F5C004EA884 /* MNObject.h */,
 				A99D3AA51D069F5C004EA884 /* MNObject.m */,
+				A944C58D1D06E9CD00AF06B7 /* Singleton.h */,
 				A944C58A1D06E94400AF06B7 /* EBNetworkRequest.h */,
 				A944C58B1D06E94400AF06B7 /* EBNetworkRequest.m */,
 			);
