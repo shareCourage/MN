@@ -20,6 +20,7 @@ PODS:
   - AFNetworking/UIKit (2.5.4):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - CTAssetsPickerController (2.9.5)
   - Masonry (0.6.2)
   - MBProgressHUD (0.9.1)
   - SDWebImage (3.7.3):
@@ -28,16 +29,18 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 2.5.4)
+  - CTAssetsPickerController (~> 2.9.5)
   - Masonry (~> 0.6.2)
   - MBProgressHUD (~> 0.9.1)
   - SDWebImage (~> 3.7.3)
 
 SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  CTAssetsPickerController: b413fece2194ae3dbf22fbc544cf6f2a6d516a4d
   Masonry: 362e8a1cc0beada4a4c4832d5e863da2a51533be
   MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
   SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
 
-PODFILE CHECKSUM: 8e408101a084bd16646d8bcd222770697058bcbe
+PODFILE CHECKSUM: 75a8d588bb2349f41818600a1ab736915f7164be
 
 COCOAPODS: 1.0.1
