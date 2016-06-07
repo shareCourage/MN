@@ -7,5 +7,6 @@ pod 'MBProgressHUD', "~> 0.9.1"
 pod 'SDWebImage', "~> 3.7.3"
 pod 'Masonry', "~> 0.6.2"
 pod 'CTAssetsPickerController',"~> 2.9.5"
+pod 'MWPhotoBrowser', "~> 2.1.1"
 
 end
