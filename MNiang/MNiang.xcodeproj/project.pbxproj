@@ -13,6 +13,8 @@
 		A944C57C1D06D09400AF06B7 /* MNLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A944C57B1D06D09400AF06B7 /* MNLoginViewController.m */; };
 		A944C57F1D06D0E600AF06B7 /* MNMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A944C57E1D06D0E600AF06B7 /* MNMeViewController.m */; };
 		A944C5821D06D0F300AF06B7 /* MNMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A944C5811D06D0F300AF06B7 /* MNMessageViewController.m */; };
+		A944C5881D06E40600AF06B7 /* UIControl+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A944C5851D06E40600AF06B7 /* UIControl+YYAdd.m */; };
+		A944C5891D06E40600AF06B7 /* UIGestureRecognizer+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A944C5871D06E40600AF06B7 /* UIGestureRecognizer+YYAdd.m */; };
 		A99D3A1F1D069A8B004EA884 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A99D3A1E1D069A8B004EA884 /* main.m */; };
 		A99D3A221D069A8B004EA884 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A99D3A211D069A8B004EA884 /* AppDelegate.m */; };
 		A99D3A2A1D069A8B004EA884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A99D3A291D069A8B004EA884 /* Assets.xcassets */; };
@@ -43,8 +45,6 @@
 		A99D3AA31D069F07004EA884 /* UIViewController+PHCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A99D3A911D069F07004EA884 /* UIViewController+PHCategory.m */; };
 		A99D3AA61D069F5C004EA884 /* MNObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A99D3AA51D069F5C004EA884 /* MNObject.m */; };
 		A99D3AA91D069F99004EA884 /* PHKeyValueObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = A99D3AA81D069F99004EA884 /* PHKeyValueObserver.m */; };
-		A99D3AAF1D069FCD004EA884 /* UIControl+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A99D3AAB1D069FCD004EA884 /* UIControl+YYAdd.m */; };
-		A99D3AB01D069FCD004EA884 /* UIGestureRecognizer+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A99D3AAD1D069FCD004EA884 /* UIGestureRecognizer+YYAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +69,10 @@
 		A944C57E1D06D0E600AF06B7 /* MNMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNMeViewController.m; sourceTree = "<group>"; };
 		A944C5801D06D0F300AF06B7 /* MNMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNMessageViewController.h; sourceTree = "<group>"; };
 		A944C5811D06D0F300AF06B7 /* MNMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNMessageViewController.m; sourceTree = "<group>"; };
+		A944C5841D06E40600AF06B7 /* UIControl+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+YYAdd.h"; sourceTree = "<group>"; };
+		A944C5851D06E40600AF06B7 /* UIControl+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+YYAdd.m"; sourceTree = "<group>"; };
+		A944C5861D06E40600AF06B7 /* UIGestureRecognizer+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+YYAdd.h"; sourceTree = "<group>"; };
+		A944C5871D06E40600AF06B7 /* UIGestureRecognizer+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+YYAdd.m"; sourceTree = "<group>"; };
 		A99D3A1A1D069A89004EA884 /* MNiang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MNiang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A99D3A1E1D069A8B004EA884 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A99D3A201D069A8B004EA884 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -130,10 +134,6 @@
 		A99D3AA51D069F5C004EA884 /* MNObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNObject.m; sourceTree = "<group>"; };
 		A99D3AA71D069F99004EA884 /* PHKeyValueObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHKeyValueObserver.h; sourceTree = "<group>"; };
 		A99D3AA81D069F99004EA884 /* PHKeyValueObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHKeyValueObserver.m; sourceTree = "<group>"; };
-		A99D3AAA1D069FCD004EA884 /* UIControl+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+YYAdd.h"; sourceTree = "<group>"; };
-		A99D3AAB1D069FCD004EA884 /* UIControl+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+YYAdd.m"; sourceTree = "<group>"; };
-		A99D3AAC1D069FCD004EA884 /* UIGestureRecognizer+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+YYAdd.h"; sourceTree = "<group>"; };
-		A99D3AAD1D069FCD004EA884 /* UIGestureRecognizer+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+YYAdd.m"; sourceTree = "<group>"; };
 		B5E75D97E04F412AEEBE0DDA /* Pods-MNiang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MNiang.release.xcconfig"; path = "Pods/Target Support Files/Pods-MNiang/Pods-MNiang.release.xcconfig"; sourceTree = "<group>"; };
 		F734DDE2E21976FB82F47731 /* Pods-MNiang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MNiang.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MNiang/Pods-MNiang.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -339,6 +339,17 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		A944C5831D06E40600AF06B7 /* YYCategory */ = {
+			isa = PBXGroup;
+			children = (
+				A944C5841D06E40600AF06B7 /* UIControl+YYAdd.h */,
+				A944C5851D06E40600AF06B7 /* UIControl+YYAdd.m */,
+				A944C5861D06E40600AF06B7 /* UIGestureRecognizer+YYAdd.h */,
+				A944C5871D06E40600AF06B7 /* UIGestureRecognizer+YYAdd.m */,
+			);
+			path = YYCategory;
+			sourceTree = "<group>";
+		};
 		A99D3A111D069A89004EA884 = {
 			isa = PBXGroup;
 			children = (
@@ -442,7 +453,7 @@
 		A99D3A5A1D069C26004EA884 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				A99D3AAE1D069FCD004EA884 /* YYCategory */,
+				A944C5831D06E40600AF06B7 /* YYCategory */,
 				A99D3A6E1D069F07004EA884 /* Catagory */,
 				A99D3AA41D069F5C004EA884 /* MNObject.h */,
 				A99D3AA51D069F5C004EA884 /* MNObject.m */,
@@ -492,18 +503,6 @@
 				A99D3A911D069F07004EA884 /* UIViewController+PHCategory.m */,
 			);
 			path = Catagory;
-			sourceTree = "<group>";
-		};
-		A99D3AAE1D069FCD004EA884 /* YYCategory */ = {
-			isa = PBXGroup;
-			children = (
-				A99D3AAA1D069FCD004EA884 /* UIControl+YYAdd.h */,
-				A99D3AAB1D069FCD004EA884 /* UIControl+YYAdd.m */,
-				A99D3AAC1D069FCD004EA884 /* UIGestureRecognizer+YYAdd.h */,
-				A99D3AAD1D069FCD004EA884 /* UIGestureRecognizer+YYAdd.m */,
-			);
-			name = YYCategory;
-			path = "../../../../其它/InfoCollect信息/InfoCollect/InfoCollect/Classes/Libs/YYCategory";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -665,18 +664,18 @@
 				A99D3A941D069F07004EA884 /* NSArray+MySeperateString.m in Sources */,
 				A99D3AA11D069F07004EA884 /* UITextField+PHCategory.m in Sources */,
 				A99D3A1F1D069A8B004EA884 /* main.m in Sources */,
+				A944C5891D06E40600AF06B7 /* UIGestureRecognizer+YYAdd.m in Sources */,
 				A99D3A961D069F07004EA884 /* NSDictionary+PHCategory.m in Sources */,
 				A99D3A631D069C75004EA884 /* PHNavigationController.m in Sources */,
 				A99D3A9B1D069F07004EA884 /* UIButton+PHCategory.m in Sources */,
+				A944C5881D06E40600AF06B7 /* UIControl+YYAdd.m in Sources */,
 				A99D3A9A1D069F07004EA884 /* UIButton+EBButton.m in Sources */,
 				A99D3A6C1D069CA0004EA884 /* PHTabBarButton.m in Sources */,
 				A99D3A951D069F07004EA884 /* NSDate+PHCategory.m in Sources */,
-				A99D3AB01D069FCD004EA884 /* UIGestureRecognizer+YYAdd.m in Sources */,
 				A99D3A971D069F07004EA884 /* NSNumber+PHCategory.m in Sources */,
 				A99D3A641D069C75004EA884 /* PHTabBarController.m in Sources */,
 				A99D3A661D069C75004EA884 /* PHViewController.m in Sources */,
 				A944C5791D06D08700AF06B7 /* MNHomeViewController.m in Sources */,
-				A99D3AAF1D069FCD004EA884 /* UIControl+YYAdd.m in Sources */,
 				A99D3A9D1D069F07004EA884 /* UIImage+PHCategory.m in Sources */,
 				A99D3A9C1D069F07004EA884 /* UIColor+PHCategory.m in Sources */,
 				A99D3AA61D069F5C004EA884 /* MNObject.m in Sources */,
