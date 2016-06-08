@@ -7,59 +7,79 @@
 //
 
 #import "PHTabBarController.h"
-#import "PHTabBar.h"
-#import "PHTabBarButton.h"
-@interface PHTabBarController ()<PHTabBarDelegate, UITabBarControllerDelegate>
+#import "HWTabBar.h"
+#import "MNHomeViewController.h"
+#import "MNDiscoverController.h"
+#import "MNMeViewController.h"
+#import "MNMessageViewController.h"
+#import "PHNavigationController.h"
 
-@property (nonatomic, weak) PHTabBar *phTabBar;
+@interface PHTabBarController ()<HWTabBarDelegate>
+
 
 @end
 
 @implementation PHTabBarController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     
-    PHTabBar *myTabBar = [[PHTabBar alloc] init];
-    myTabBar.backgroundColor = kRGBColor(39, 39, 39);
-    myTabBar.delegate = self;
-    myTabBar.frame = self.tabBar.bounds;
-    [self.tabBar addSubview:myTabBar];
-    self.phTabBar = myTabBar;
-    NSArray *tabBar = @[@"tabBar_search_normal",@"tabBar_byBus_normal",@"tabBar_attention_normal",@"tabBar_me_normal"];
-    NSArray *tabBarSel = @[@"tabBar_search_select",@"tabBar_byBus_select",@"tabBar_attention_select",@"tabBar_me_select"];
-    NSArray *tabBarName = @[@"查询",@"乘车",@"关注",@"我的"];
-    // 2.添加对应个数的按钮
-    for (int i = 0; i < self.viewControllers.count; i++) {
-        NSString *name = tabBar[i];
-        NSString *selName = tabBarSel[i];
-        NSString *title = tabBarName[i];
-        [myTabBar addTabButtonWithName:name selName:selName title:title];
-    }
+    // 1.初始化子控制器
+    MNHomeViewController *home = [[MNHomeViewController alloc] init];
+    [self addChildVc:home title:@"首页" image:@"tabbar_home" selectedImage:@"tabbar_home_selected"];
+    
+    MNDiscoverController *messageCenter = [[MNDiscoverController alloc] init];
+    [self addChildVc:messageCenter title:@"发现" image:@"tabbar_message_center" selectedImage:@"tabbar_message_center_selected"];
+    
+    MNMessageViewController *discover = [[MNMessageViewController alloc] init];
+    [self addChildVc:discover title:@"消息" image:@"tabbar_discover" selectedImage:@"tabbar_discover_selected"];
+    
+    MNMeViewController *profile = [[MNMeViewController alloc] init];
+    [self addChildVc:profile title:@"我的" image:@"tabbar_profile" selectedImage:@"tabbar_profile_selected"];
+    
+    // 2.更换系统自带的tabbar
+    HWTabBar *tabBar = [[HWTabBar alloc] init];
+    [self setValue:tabBar forKeyPath:@"tabBar"];
 }
-
-
 
 /**
- normal : 普通状态
- highlighted : 高亮(用户长按的时候达到这个状态)
- disable : enabled = NO
- selected :  selected = YES
+ *  添加一个子控制器
+ *
+ *  @param childVc       子控制器
+ *  @param title         标题
+ *  @param image         图片
+ *  @param selectedImage 选中的图片
  */
-#pragma mark - PHTabBar的代理方法
-- (void)tabBar:(PHTabBar *)tabBar didSelectButtonFrom:(NSUInteger)from to:(NSUInteger)to
+- (void)addChildVc:(UIViewController *)childVc title:(NSString *)title image:(NSString *)image selectedImage:(NSString *)selectedImage
 {
-    self.selectedIndex = to;
-    NSLog(@"%lu",(unsigned long)to);
+    // 设置子控制器的文字
+    childVc.title = title; // 同时设置tabbar和navigationBar的文字
+    
+    // 设置子控制器的图片
+    childVc.tabBarItem.image = [UIImage imageNamed:image];
+    childVc.tabBarItem.selectedImage = [[UIImage imageNamed:selectedImage]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    
+    // 设置文字的样式
+    NSMutableDictionary *textAttrs = [NSMutableDictionary dictionary];
+    textAttrs[NSForegroundColorAttributeName] = kRGBColor(123, 123, 123);
+    NSMutableDictionary *selectTextAttrs = [NSMutableDictionary dictionary];
+    selectTextAttrs[NSForegroundColorAttributeName] = [UIColor orangeColor];
+    [childVc.tabBarItem setTitleTextAttributes:textAttrs forState:UIControlStateNormal];
+    [childVc.tabBarItem setTitleTextAttributes:selectTextAttrs forState:UIControlStateSelected];
+    
+    // 先给外面传进来的小控制器 包装 一个导航控制器
+    PHNavigationController *nav = [[PHNavigationController alloc] initWithRootViewController:childVc];
+    // 添加为子控制器
+    [self addChildViewController:nav];
 }
 
-
-#pragma mark - Public Method
-
-- (void)setMySelectedIndex:(NSUInteger)mySelectedIndex {
-    _mySelectedIndex = mySelectedIndex;
-    [self.phTabBar setSelectIndex:mySelectedIndex];
+#pragma mark - HWTabBarDelegate代理方法
+- (void)tabBarDidClickPlusButton:(HWTabBar *)tabBar
+{
+    MNLog(@"tabBarDidClickPlusButton");
 }
+
 @end
 
 
