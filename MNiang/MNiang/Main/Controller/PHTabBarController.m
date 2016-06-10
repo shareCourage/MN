@@ -13,8 +13,11 @@
 #import "MNMeViewController.h"
 #import "MNMessageViewController.h"
 #import "PHNavigationController.h"
+#import "LGPhoto.h"
 
-@interface PHTabBarController ()<HWTabBarDelegate>
+
+
+@interface PHTabBarController ()<HWTabBarDelegate,LGPhotoPickerViewControllerDelegate,LGPhotoPickerBrowserViewControllerDataSource,LGPhotoPickerBrowserViewControllerDelegate>
 
 
 @end
@@ -78,6 +81,12 @@
 - (void)tabBarDidClickPlusButton:(HWTabBar *)tabBar
 {
     MNLog(@"tabBarDidClickPlusButton");
+    LGPhotoPickerViewController *pickerVc = [[LGPhotoPickerViewController alloc] initWithShowType:LGShowImageTypeImagePicker];
+    pickerVc.status = PickerViewShowStatusCameraRoll;
+    pickerVc.maxCount = 9;   // 最多能选9张图片
+    pickerVc.delegate = self;
+    pickerVc.topShowPhotoPicker = YES;
+    [pickerVc showPickerVc:self];
 }
 
 @end
