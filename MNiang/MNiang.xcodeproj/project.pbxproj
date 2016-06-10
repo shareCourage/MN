@@ -22,6 +22,11 @@
 		A98C63551D0A70C500B56695 /* MNUserBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A98C63541D0A70C500B56695 /* MNUserBaseCell.m */; };
 		A98C635B1D0A776100B56695 /* MNRecommendUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A98C635A1D0A776100B56695 /* MNRecommendUserCell.m */; };
 		A98C635E1D0A77DA00B56695 /* MNAttentionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A98C635D1D0A77DA00B56695 /* MNAttentionCell.m */; };
+		A98C63611D0A90F400B56695 /* PHCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A98C63601D0A90F400B56695 /* PHCollectionViewLayout.m */; };
+		A98C63651D0A928300B56695 /* MNImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A98C63631D0A928300B56695 /* MNImageViewCell.m */; };
+		A98C63661D0A928300B56695 /* MNImageViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A98C63641D0A928300B56695 /* MNImageViewCell.xib */; };
+		A98C637A1D0A9FD400B56695 /* MNHotCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A98C63781D0A9FD400B56695 /* MNHotCollectionReusableView.m */; };
+		A98C637B1D0A9FD400B56695 /* MNHotCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A98C63791D0A9FD400B56695 /* MNHotCollectionReusableView.xib */; };
 		A99D3A1F1D069A8B004EA884 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A99D3A1E1D069A8B004EA884 /* main.m */; };
 		A99D3A221D069A8B004EA884 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A99D3A211D069A8B004EA884 /* AppDelegate.m */; };
 		A99D3A2A1D069A8B004EA884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A99D3A291D069A8B004EA884 /* Assets.xcassets */; };
@@ -95,6 +100,14 @@
 		A98C635A1D0A776100B56695 /* MNRecommendUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNRecommendUserCell.m; sourceTree = "<group>"; };
 		A98C635C1D0A77DA00B56695 /* MNAttentionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNAttentionCell.h; sourceTree = "<group>"; };
 		A98C635D1D0A77DA00B56695 /* MNAttentionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNAttentionCell.m; sourceTree = "<group>"; };
+		A98C635F1D0A90F400B56695 /* PHCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHCollectionViewLayout.h; sourceTree = "<group>"; };
+		A98C63601D0A90F400B56695 /* PHCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHCollectionViewLayout.m; sourceTree = "<group>"; };
+		A98C63621D0A928300B56695 /* MNImageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNImageViewCell.h; sourceTree = "<group>"; };
+		A98C63631D0A928300B56695 /* MNImageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNImageViewCell.m; sourceTree = "<group>"; };
+		A98C63641D0A928300B56695 /* MNImageViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MNImageViewCell.xib; sourceTree = "<group>"; };
+		A98C63771D0A9FD400B56695 /* MNHotCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNHotCollectionReusableView.h; sourceTree = "<group>"; };
+		A98C63781D0A9FD400B56695 /* MNHotCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNHotCollectionReusableView.m; sourceTree = "<group>"; };
+		A98C63791D0A9FD400B56695 /* MNHotCollectionReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MNHotCollectionReusableView.xib; sourceTree = "<group>"; };
 		A99D3A1A1D069A89004EA884 /* MNiang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MNiang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A99D3A1E1D069A8B004EA884 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A99D3A201D069A8B004EA884 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -268,6 +281,12 @@
 				A98C635A1D0A776100B56695 /* MNRecommendUserCell.m */,
 				A98C635C1D0A77DA00B56695 /* MNAttentionCell.h */,
 				A98C635D1D0A77DA00B56695 /* MNAttentionCell.m */,
+				A98C63621D0A928300B56695 /* MNImageViewCell.h */,
+				A98C63631D0A928300B56695 /* MNImageViewCell.m */,
+				A98C63641D0A928300B56695 /* MNImageViewCell.xib */,
+				A98C63771D0A9FD400B56695 /* MNHotCollectionReusableView.h */,
+				A98C63781D0A9FD400B56695 /* MNHotCollectionReusableView.m */,
+				A98C63791D0A9FD400B56695 /* MNHotCollectionReusableView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -474,6 +493,8 @@
 		A99D3A511D069C26004EA884 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A98C635F1D0A90F400B56695 /* PHCollectionViewLayout.h */,
+				A98C63601D0A90F400B56695 /* PHCollectionViewLayout.m */,
 				03E49BF61D07129F0034B1DB /* HWTabBar.h */,
 				03E49BF71D07129F0034B1DB /* HWTabBar.m */,
 				A99D3A671D069CA0004EA884 /* PHTabBar.h */,
@@ -626,6 +647,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A99D3A2A1D069A8B004EA884 /* Assets.xcassets in Resources */,
+				A98C63661D0A928300B56695 /* MNImageViewCell.xib in Resources */,
+				A98C637B1D0A9FD400B56695 /* MNHotCollectionReusableView.xib in Resources */,
 				A99D3A931D069F07004EA884 /* MBProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -692,6 +715,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A98C63611D0A90F400B56695 /* PHCollectionViewLayout.m in Sources */,
 				A99D3A921D069F07004EA884 /* MBProgressHUD+MJ.m in Sources */,
 				A99D3A221D069A8B004EA884 /* AppDelegate.m in Sources */,
 				A99D3A9E1D069F07004EA884 /* UILabel+PHCategory.m in Sources */,
@@ -705,6 +729,7 @@
 				A944C5891D06E40600AF06B7 /* UIGestureRecognizer+YYAdd.m in Sources */,
 				A99D3A961D069F07004EA884 /* NSDictionary+PHCategory.m in Sources */,
 				A98C635E1D0A77DA00B56695 /* MNAttentionCell.m in Sources */,
+				A98C63651D0A928300B56695 /* MNImageViewCell.m in Sources */,
 				A98C635B1D0A776100B56695 /* MNRecommendUserCell.m in Sources */,
 				A99D3A631D069C75004EA884 /* PHNavigationController.m in Sources */,
 				A99D3A9B1D069F07004EA884 /* UIButton+PHCategory.m in Sources */,
@@ -732,6 +757,7 @@
 				A98C634C1D0A5E4800B56695 /* MNAttentionViewController.m in Sources */,
 				A944C57F1D06D0E600AF06B7 /* MNMeViewController.m in Sources */,
 				A99D3A981D069F07004EA884 /* NSString+PHCategory.m in Sources */,
+				A98C637A1D0A9FD400B56695 /* MNHotCollectionReusableView.m in Sources */,
 				A944C5821D06D0F300AF06B7 /* MNMessageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
