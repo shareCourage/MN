@@ -24,6 +24,7 @@ PODS:
   - DACircularProgress (2.3.1)
   - Masonry (0.6.2)
   - MBProgressHUD (0.9.1)
+  - MJRefresh (2.2.0)
   - MWPhotoBrowser (2.1.1):
     - DACircularProgress (~> 2.3)
     - MBProgressHUD (~> 0.9)
@@ -37,6 +38,7 @@ DEPENDENCIES:
   - CTAssetsPickerController (~> 2.9.5)
   - Masonry (~> 0.6.2)
   - MBProgressHUD (~> 0.9.1)
+  - MJRefresh (~> 2.2.0)
   - MWPhotoBrowser (~> 2.1.1)
   - SDWebImage (~> 3.7.3)
 
@@ -46,9 +48,10 @@ SPEC CHECKSUMS:
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   Masonry: 362e8a1cc0beada4a4c4832d5e863da2a51533be
   MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  MJRefresh: 65a2bf14abb6feeaed8696aa1551f70e15ab0a08
   MWPhotoBrowser: ba0d0c09ffda3a7ea10093518738c502c1c7141c
   SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
 
-PODFILE CHECKSUM: 016f2dbd87ed1807073ca970b34e409f00440164
+PODFILE CHECKSUM: 29d787a4ba6122a397577490f843344084afddff
 
 COCOAPODS: 1.0.1

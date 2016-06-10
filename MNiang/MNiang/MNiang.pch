@@ -20,10 +20,15 @@
 #define kRGBColor(r,g,b)  [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1.0]
 #define kRGBAColor(r,g,b,a)  [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
 #define kiOS(version) ([[[UIDevice currentDevice] systemVersion] floatValue] >= version)
+#define kWS(weakSelf) __weak __typeof(&*self)weakSelf = self;
 
 #define kiOS7 kiOS(7.0f)
 #define kiOS8 kiOS(8.0f)
 #define kiOS9 kiOS(9.0f)
+
+
+#define kWindowWidth [UIScreen mainScreen].bounds.size.width
+#define kWindowHeight [UIScreen mainScreen].bounds.size.height
 
 
 #if 0

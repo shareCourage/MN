@@ -61,6 +61,11 @@
     itemAttrs[NSFontAttributeName] = [UIFont systemFontOfSize:14];
     [item setTitleTextAttributes:itemAttrs forState:UIControlStateNormal];
     [item setBackButtonTitlePositionAdjustment:UIOffsetMake(0, -60) forBarMetrics:UIBarMetricsDefault];
+    
+//    [navBar setBackgroundImage:[UIImage new]
+//                             forBarMetrics:UIBarMetricsDefault];
+//    navBar.shadowImage = [UIImage new];
+//    navBar.translucent = YES;
 }
 
 /**

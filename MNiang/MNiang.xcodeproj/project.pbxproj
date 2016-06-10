@@ -17,6 +17,11 @@
 		A944C5881D06E40600AF06B7 /* UIControl+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A944C5851D06E40600AF06B7 /* UIControl+YYAdd.m */; };
 		A944C5891D06E40600AF06B7 /* UIGestureRecognizer+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A944C5871D06E40600AF06B7 /* UIGestureRecognizer+YYAdd.m */; };
 		A944C58C1D06E94400AF06B7 /* EBNetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A944C58B1D06E94400AF06B7 /* EBNetworkRequest.m */; };
+		A98C63491D0A5E2200B56695 /* MNHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A98C63481D0A5E2200B56695 /* MNHotViewController.m */; };
+		A98C634C1D0A5E4800B56695 /* MNAttentionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A98C634B1D0A5E4800B56695 /* MNAttentionViewController.m */; };
+		A98C63551D0A70C500B56695 /* MNUserBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A98C63541D0A70C500B56695 /* MNUserBaseCell.m */; };
+		A98C635B1D0A776100B56695 /* MNRecommendUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A98C635A1D0A776100B56695 /* MNRecommendUserCell.m */; };
+		A98C635E1D0A77DA00B56695 /* MNAttentionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A98C635D1D0A77DA00B56695 /* MNAttentionCell.m */; };
 		A99D3A1F1D069A8B004EA884 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A99D3A1E1D069A8B004EA884 /* main.m */; };
 		A99D3A221D069A8B004EA884 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A99D3A211D069A8B004EA884 /* AppDelegate.m */; };
 		A99D3A2A1D069A8B004EA884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A99D3A291D069A8B004EA884 /* Assets.xcassets */; };
@@ -80,6 +85,16 @@
 		A944C58A1D06E94400AF06B7 /* EBNetworkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBNetworkRequest.h; sourceTree = "<group>"; };
 		A944C58B1D06E94400AF06B7 /* EBNetworkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBNetworkRequest.m; sourceTree = "<group>"; };
 		A944C58D1D06E9CD00AF06B7 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		A98C63471D0A5E2200B56695 /* MNHotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNHotViewController.h; sourceTree = "<group>"; };
+		A98C63481D0A5E2200B56695 /* MNHotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNHotViewController.m; sourceTree = "<group>"; };
+		A98C634A1D0A5E4800B56695 /* MNAttentionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNAttentionViewController.h; sourceTree = "<group>"; };
+		A98C634B1D0A5E4800B56695 /* MNAttentionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNAttentionViewController.m; sourceTree = "<group>"; };
+		A98C63531D0A70C500B56695 /* MNUserBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNUserBaseCell.h; sourceTree = "<group>"; };
+		A98C63541D0A70C500B56695 /* MNUserBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNUserBaseCell.m; sourceTree = "<group>"; };
+		A98C63591D0A776100B56695 /* MNRecommendUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNRecommendUserCell.h; sourceTree = "<group>"; };
+		A98C635A1D0A776100B56695 /* MNRecommendUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNRecommendUserCell.m; sourceTree = "<group>"; };
+		A98C635C1D0A77DA00B56695 /* MNAttentionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNAttentionCell.h; sourceTree = "<group>"; };
+		A98C635D1D0A77DA00B56695 /* MNAttentionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNAttentionCell.m; sourceTree = "<group>"; };
 		A99D3A1A1D069A89004EA884 /* MNiang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MNiang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A99D3A1E1D069A8B004EA884 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A99D3A201D069A8B004EA884 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -229,6 +244,10 @@
 			children = (
 				A944C5771D06D08700AF06B7 /* MNHomeViewController.h */,
 				A944C5781D06D08700AF06B7 /* MNHomeViewController.m */,
+				A98C63471D0A5E2200B56695 /* MNHotViewController.h */,
+				A98C63481D0A5E2200B56695 /* MNHotViewController.m */,
+				A98C634A1D0A5E4800B56695 /* MNAttentionViewController.h */,
+				A98C634B1D0A5E4800B56695 /* MNAttentionViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -243,6 +262,12 @@
 		A944C5671D06D05200AF06B7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A98C63531D0A70C500B56695 /* MNUserBaseCell.h */,
+				A98C63541D0A70C500B56695 /* MNUserBaseCell.m */,
+				A98C63591D0A776100B56695 /* MNRecommendUserCell.h */,
+				A98C635A1D0A776100B56695 /* MNRecommendUserCell.m */,
+				A98C635C1D0A77DA00B56695 /* MNAttentionCell.h */,
+				A98C635D1D0A77DA00B56695 /* MNAttentionCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -676,8 +701,11 @@
 				A99D3A941D069F07004EA884 /* NSArray+MySeperateString.m in Sources */,
 				A99D3AA11D069F07004EA884 /* UITextField+PHCategory.m in Sources */,
 				A99D3A1F1D069A8B004EA884 /* main.m in Sources */,
+				A98C63551D0A70C500B56695 /* MNUserBaseCell.m in Sources */,
 				A944C5891D06E40600AF06B7 /* UIGestureRecognizer+YYAdd.m in Sources */,
 				A99D3A961D069F07004EA884 /* NSDictionary+PHCategory.m in Sources */,
+				A98C635E1D0A77DA00B56695 /* MNAttentionCell.m in Sources */,
+				A98C635B1D0A776100B56695 /* MNRecommendUserCell.m in Sources */,
 				A99D3A631D069C75004EA884 /* PHNavigationController.m in Sources */,
 				A99D3A9B1D069F07004EA884 /* UIButton+PHCategory.m in Sources */,
 				A944C5881D06E40600AF06B7 /* UIControl+YYAdd.m in Sources */,
@@ -698,8 +726,10 @@
 				A99D3A651D069C75004EA884 /* PHTableViewController.m in Sources */,
 				A99D3AA21D069F07004EA884 /* UIView+PHLayout.m in Sources */,
 				A99D3AA91D069F99004EA884 /* PHKeyValueObserver.m in Sources */,
+				A98C63491D0A5E2200B56695 /* MNHotViewController.m in Sources */,
 				A99D3AA31D069F07004EA884 /* UIViewController+PHCategory.m in Sources */,
 				03E49BF81D07129F0034B1DB /* HWTabBar.m in Sources */,
+				A98C634C1D0A5E4800B56695 /* MNAttentionViewController.m in Sources */,
 				A944C57F1D06D0E600AF06B7 /* MNMeViewController.m in Sources */,
 				A99D3A981D069F07004EA884 /* NSString+PHCategory.m in Sources */,
 				A944C5821D06D0F300AF06B7 /* MNMessageViewController.m in Sources */,

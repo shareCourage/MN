@@ -27,16 +27,16 @@
     
     // 1.初始化子控制器
     MNHomeViewController *home = [[MNHomeViewController alloc] init];
-    [self addChildVc:home title:@"首页" image:@"tabbar_home" selectedImage:@"tabbar_home_selected"];
+    [self addChildVc:home title:kTabBarTitle_Home image:kImageN_tabbar_home selectedImage:kImageN_tabbar_home_selected];
     
     MNDiscoverController *messageCenter = [[MNDiscoverController alloc] init];
-    [self addChildVc:messageCenter title:@"发现" image:@"tabbar_message_center" selectedImage:@"tabbar_message_center_selected"];
+    [self addChildVc:messageCenter title:kTabBarTitle_Discover image:kImageN_tabbar_message_center selectedImage:kImageN_tabbar_message_center_selected];
     
     MNMessageViewController *discover = [[MNMessageViewController alloc] init];
-    [self addChildVc:discover title:@"消息" image:@"tabbar_discover" selectedImage:@"tabbar_discover_selected"];
+    [self addChildVc:discover title:kTabBarTitle_Message image:kImageN_tabbar_discover selectedImage:kImageN_tabbar_discover_selected];
     
     MNMeViewController *profile = [[MNMeViewController alloc] init];
-    [self addChildVc:profile title:@"我的" image:@"tabbar_profile" selectedImage:@"tabbar_profile_selected"];
+    [self addChildVc:profile title:kTabBarTitle_Me image:kImageN_tabbar_profile selectedImage:kImageN_tabbar_profile_selected];
     
     // 2.更换系统自带的tabbar
     HWTabBar *tabBar = [[HWTabBar alloc] init];
@@ -64,7 +64,7 @@
     NSMutableDictionary *textAttrs = [NSMutableDictionary dictionary];
     textAttrs[NSForegroundColorAttributeName] = kRGBColor(123, 123, 123);
     NSMutableDictionary *selectTextAttrs = [NSMutableDictionary dictionary];
-    selectTextAttrs[NSForegroundColorAttributeName] = [UIColor orangeColor];
+    selectTextAttrs[NSForegroundColorAttributeName] = [UIColor MNColor_pink];
     [childVc.tabBarItem setTitleTextAttributes:textAttrs forState:UIControlStateNormal];
     [childVc.tabBarItem setTitleTextAttributes:selectTextAttrs forState:UIControlStateSelected];
     
