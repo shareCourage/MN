@@ -523,7 +523,7 @@ static NSString *const _identifier = @"toolBarThumbCollectionViewCell";
 #pragma mark -<Navigation Actions>
 #pragma mark -开启异步通知
 - (void) cancelBtnTouched{
-    [self dismissViewControllerAnimated:YES completion:nil];
+    [self dismissViewControllerAnimated:NO completion:nil];
 }
 - (void) sendBtnTouched {
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{

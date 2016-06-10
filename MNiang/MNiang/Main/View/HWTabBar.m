@@ -20,12 +20,11 @@
     if (self) {
         // 添加一个按钮到tabbar中
         UIButton *plusBtn = [[UIButton alloc] init];
-        plusBtn.backgroundColor = [UIColor redColor];
         [plusBtn setBackgroundImage:[UIImage imageNamed:@"tabbar_compose_button"] forState:UIControlStateNormal];
         [plusBtn setBackgroundImage:[UIImage imageNamed:@"tabbar_compose_button_highlighted"] forState:UIControlStateHighlighted];
         [plusBtn setImage:[UIImage imageNamed:@"tabbar_compose_icon_add"] forState:UIControlStateNormal];
         [plusBtn setImage:[UIImage imageNamed:@"tabbar_compose_icon_add_highlighted"] forState:UIControlStateHighlighted];
-        //plusBtn.size = plusBtn.currentBackgroundImage.size;
+        plusBtn.size = plusBtn.currentBackgroundImage.size;
         plusBtn.size = CGSizeMake(50, 50);
         [plusBtn addTarget:self action:@selector(plusClick) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:plusBtn];

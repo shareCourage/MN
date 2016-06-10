@@ -80,7 +80,6 @@
 #pragma mark - HWTabBarDelegate代理方法
 - (void)tabBarDidClickPlusButton:(HWTabBar *)tabBar
 {
-    MNLog(@"tabBarDidClickPlusButton");
     LGPhotoPickerViewController *pickerVc = [[LGPhotoPickerViewController alloc] initWithShowType:LGShowImageTypeImagePicker];
     pickerVc.status = PickerViewShowStatusCameraRoll;
     pickerVc.maxCount = 9;   // 最多能选9张图片
