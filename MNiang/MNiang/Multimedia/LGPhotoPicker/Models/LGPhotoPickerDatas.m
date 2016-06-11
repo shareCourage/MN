@@ -87,7 +87,15 @@
         if (asset) {
             [assets addObject:asset];
         }else{
-            callBack(assets);
+            NSArray *sortedList = [assets sortedArrayUsingComparator:^NSComparisonResult(ALAsset * obj1, ALAsset * obj2) {
+                if ([obj1 isKindOfClass:[UIImage class]]) {
+                    return NSOrderedAscending;
+                }
+                id firstData = [obj1 valueForProperty:ALAssetPropertyDate];
+                id secondData = [obj2 valueForProperty:ALAssetPropertyDate];
+                return [secondData compare:firstData];//降序
+            }];
+            callBack(sortedList);
         }
     };
     [pickerGroup.group enumerateAssetsUsingBlock:result];

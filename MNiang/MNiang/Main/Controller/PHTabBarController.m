@@ -88,6 +88,15 @@
     [pickerVc showPickerVc:self];
 }
 
+/**
+ *  返回所有的Asstes对象
+ */
+- (void)pickerViewControllerDoneAsstes:(NSArray *)assets isOriginal:(BOOL)original
+{
+    MNLog(@"%@",assets);
+}
+
+
 @end
 
 

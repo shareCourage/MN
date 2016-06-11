@@ -334,8 +334,10 @@ static NSString *const _identifier = @"toolBarThumbCollectionViewCell";
         self.sendBtn.enabled = (count > 0);
         self.previewBtn.enabled = (count > 0);
         
-        [picker dismissViewControllerAnimated:YES completion:nil];
-        [self dismissViewControllerAnimated:YES completion:^{
+        [self postNotification];
+        
+        [picker dismissViewControllerAnimated:NO completion:nil];
+        [self dismissViewControllerAnimated:NO completion:^{
             
         }];
     }else{
@@ -526,11 +528,19 @@ static NSString *const _identifier = @"toolBarThumbCollectionViewCell";
     [self dismissViewControllerAnimated:NO completion:nil];
 }
 - (void) sendBtnTouched {
+    [self postNotification];
+    [self dismissViewControllerAnimated:NO completion:nil];
+}
+
+/**
+ *  发送获取到图片通知
+ */
+- (void)postNotification
+{
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         [[NSNotificationCenter defaultCenter] postNotificationName:PICKER_TAKE_DONE object:nil userInfo:@{@"selectAssets":self.selectAssets,@"isOriginal":@(self.isOriginal)}];
         NSLog(@"%@",@(self.isOriginal));
     });
-    [self dismissViewControllerAnimated:NO completion:nil];
 }
 
 @end

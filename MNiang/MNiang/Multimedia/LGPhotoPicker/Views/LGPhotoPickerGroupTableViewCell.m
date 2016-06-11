@@ -51,6 +51,12 @@
     _group = group;
     
     self.groupNameLabel.text = group.groupName;
+    if ([group.groupName isEqualToString:@"Camera Roll"]) {
+         self.groupNameLabel.text = @"相机胶卷";
+    }
+    if ([group.groupName isEqualToString:@"My Photo Stream"]) {
+        self.groupNameLabel.text = @"我的照片流";
+    }
     self.groupImageView.image = group.thumbImage;
     self.groupPicCountLabel.text = [NSString stringWithFormat:@"(%ld)",(long)group.assetsCount];
 }

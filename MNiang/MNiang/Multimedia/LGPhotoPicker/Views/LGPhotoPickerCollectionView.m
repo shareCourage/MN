@@ -171,8 +171,10 @@
 //    NSLog(@"cellForItemAtIndexPath --- start");
     if (indexPath.row == 0) {
         PhotoCell *cell = [PhotoCell cellWithCollectionView:collectionView cellForItemAtIndexPath:indexPath];
-        cell.cellImage = [UIImage imageNamed:@"broswerPic3"];
-        cell.backgroundColor = [UIColor redColor];
+        UIImageView *iamgeView = [[UIImageView alloc] init];
+        iamgeView.frame = cell.bounds;
+        iamgeView.image = [UIImage imageNamed:@"xiang"];
+        [cell.contentView addSubview:iamgeView];
         return cell;
     }
     LGPhotoPickerCollectionViewCell *cell = [LGPhotoPickerCollectionViewCell cellWithCollectionView:collectionView cellForItemAtIndexPath:indexPath];
