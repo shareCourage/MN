@@ -9,5 +9,9 @@ pod 'Masonry', "~> 0.6.2"
 pod 'CTAssetsPickerController',"~> 2.9.5"
 pod 'MWPhotoBrowser', "~> 2.1.1"
 pod 'MJRefresh', “~> 2.2.0”
+pod 'ShareSDK3' 
+pod 'ShareSDK3/ShareSDKPlatforms/QQ' 
+pod 'ShareSDK3/ShareSDKPlatforms/SinaWeibo' 
+pod 'ShareSDK3/ShareSDKPlatforms/WeChat' 
 
 end
