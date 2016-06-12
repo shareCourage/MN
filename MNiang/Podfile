@@ -14,4 +14,7 @@ pod 'ShareSDK3/ShareSDKPlatforms/QQ'
 pod 'ShareSDK3/ShareSDKPlatforms/SinaWeibo' 
 pod 'ShareSDK3/ShareSDKPlatforms/WeChat' 
 
+pod 'HandyFrame'
+pod 'HandyAutoLayout'
+
 end

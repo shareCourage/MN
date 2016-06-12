@@ -22,6 +22,8 @@ PODS:
     - AFNetworking/NSURLSession
   - CTAssetsPickerController (2.9.5)
   - DACircularProgress (2.3.1)
+  - HandyAutoLayout (1.0.0)
+  - HandyFrame (1.1.0)
   - Masonry (0.6.4)
   - MBProgressHUD (0.9.2)
   - MJRefresh (2.2.1)
@@ -42,6 +44,8 @@ PODS:
 DEPENDENCIES:
   - AFNetworking (~> 2.5.4)
   - CTAssetsPickerController (~> 2.9.5)
+  - HandyAutoLayout
+  - HandyFrame
   - Masonry (~> 0.6.2)
   - MBProgressHUD (~> 0.9.1)
   - MJRefresh (~> 2.2.0)
@@ -56,6 +60,8 @@ SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
   CTAssetsPickerController: b413fece2194ae3dbf22fbc544cf6f2a6d516a4d
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  HandyAutoLayout: f6ef3ab011318f8493fa868d93d9b03ceef4ef90
+  HandyFrame: 97a9d4069bcd191dfbbbb4aa08390e3b8076e9bf
   Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   MJRefresh: c3fa0387e8e97a11a9666639d2f815607edd1c2f
